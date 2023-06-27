@@ -26,8 +26,8 @@ Example config.json:
       ]
     }
 
-Kevo now provides the lock IDs from the web portal or app within the lock detail information. 
+Kevo now provides the lock IDs from the web portal or app within the lock detail information. If using multiple locks it is recommended to use different My Kevo accounts for both. This can easily done with Gmail by adding a "+something" to the email to create a second account that will go to the same email (e.g. myemail@gmail.com for the first account and myemail+kevo@gmail.com for the second). 
 
-Use a random serial number for each lock so that when importing to Home Assistant all locks come across instead of just one.
+Use a random serial number for each lock so that when importing to Home Assistant all locks come across instead of just one. 
 
 NOTE: When commanding groups of locks, there will be a 15 second delay between each lock command firing because Kevo does not support rapid API requests. This causes Siri to usually say "Sorry x, I didn't hear back" as a result.

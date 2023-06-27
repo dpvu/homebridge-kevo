@@ -1,6 +1,6 @@
 {
   "name": "homebridge-kevo-withserial",
-  "version": "0.0.30",
+  "version": "0.0.40",
   "description": "Kevo support for Homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
